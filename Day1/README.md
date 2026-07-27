@@ -15,5 +15,6 @@ Task Allocation:
 Outcome of Day 1:
 - Genotype- Phenotype dataset from Stanford HIV Databases
 - Settled on working with Nucleoside Reverside Transcriptase Inhibitors (NRTs)
+- Data Cleaning and Resolve
 
 
