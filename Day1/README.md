@@ -10,11 +10,11 @@ Group Members:
 Task Allocation:
 
 - Lucy & Getnet : Literature review on the current regimen status in Kenya and the different classifications of ART
-- Noella & Irene : Navigating Stanford HIV Database and identifying drug resistance mutations from isolates processed
+- Noella & Irene : Navigating Stanford HIV Database and identifying drug resistance mutations from processed isolates
 
 Outcome of Day 1:
 - Genotype- Phenotype dataset from Stanford HIV Databases
-- Settled on working with Nucleoside Reverside Transcriptase Inhibitors (NRTs)
+- Settled on working with Nucleoside Reverside Transcriptase Inhibitors (NRTIs)
 - Data Cleaning and Resolve
 
 
