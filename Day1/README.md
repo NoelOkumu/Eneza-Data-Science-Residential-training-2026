@@ -17,7 +17,9 @@ Task Allocation:
 *Detailed RT Phenotype Query* : 
 
 Drugs : All NRTIs
+
 Susceptibility Test Methods: Phenosense generated data
+
 _Phenosense_ - Considered best assay for measuring drug susceptibility
 
 
