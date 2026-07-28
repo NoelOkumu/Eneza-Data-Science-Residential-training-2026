@@ -17,9 +17,9 @@
 ### Data Cleaning Checklist
 
 - [x] Removing Duplicate rows (Isolates_ID)
-- [ ] Handling missing values
 - [ ] Quantifying 'Missingness' in Data
-- [ ] Mutation Frequency and Mutation association studies
+- [ ] Handling missing values
+- [ ] Mutation Frequency and filltering mutations
 - [ ] Data transformation (If fold resistance values are skewed)
 
 ### Filtering Mutations 
