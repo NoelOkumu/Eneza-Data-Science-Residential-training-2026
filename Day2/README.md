@@ -4,7 +4,7 @@
 - Shape of original data (2505, 335)
 - Filter columns:
     ```
-    "RefID","Species","Type", "Method", "NNRTIDRMs", 'CompleteMutationListAvailable', 'Author','NonDRMs', 'Author','RefYear', 'MedlineID', 'Title',  'PtID', 'IsolateName'
+    "RefID","Species","Type", "Method", "NNRTIDRMs", 'CompleteMutationListAvailable', 'Author','NonDRMs', 'Author','RefYear', 'MedlineID', 'Title',  'PtID'
     ```
 
 - Abstract drugs
