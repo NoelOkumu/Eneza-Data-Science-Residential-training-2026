@@ -6,15 +6,22 @@
     ```
     "RefID","Species","Type", "Method", "NNRTIDRMs", 'CompleteMutationListAvailable', 'Author','NonDRMs', 'Author','RefYear', 'MedlineID', 'Title',  'PtID', 'IsolateName'
     ```
+
+- Abstract drugs
+    Drugs  that do not meet a threshold of >1000 completeness were removed
+  
+  ```
+  FTC : 557, DDC :502, TAF: 96, ISL: 32
+  ```
     
 ### Data Cleaning Checklist
 
 - [x] Removing Duplicate rows (Isolates_ID)
 - [ ] Handling missing values
-- [ ] Quanitifying Missingness in Data
+- [ ] Quantifying 'Missingness' in Data
 - [ ] Mutation Frequency and Mutation association studies
 - [ ] Data transformation (If fold resistance values are skewed)
 
-### Filtering Mutations
+### Filtering Mutations 
 
-Mutation Association analysis and Mutation Frequency calculations
+Step 1: Mutation Association analysis and Mutation Frequency calculations
