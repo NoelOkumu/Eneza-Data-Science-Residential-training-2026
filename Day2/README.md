@@ -25,9 +25,11 @@
 
 
 Step 1: Removing Duplicates
+
 Added to the main .ipynb file. Isolate_IDs were unique, no duplicate values encountered
 
 Step 2: Quantifying 'Missingness' in Data
+
 All null values in individual columns were quantified, summed up and stored in a data frame called "Missing"
 
 
@@ -40,7 +42,9 @@ All null values in individual columns were quantified, summed up and stored in a
 | **drugs** | 0 | 0.00% |
 
 Step 3 : Handling missing values
+
 Dropped rows (Isolates) that lack the Nucleoside/ Nucleotide Reverse Transcriptase Inhibitor Drug-Resistance mutations (NRTI-DRMs)
+
 Justification : Isolates would inflate background noise and reduce model prediction accuracy
 
 Challenge: Fold change variable still contains missing values (Column is very sensitive to imputation) - Need to resolve
