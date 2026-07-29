@@ -65,7 +65,8 @@ These values provide a threshold for determining whether the isolate was suscept
 
 _Step 5 : Matrix Generation Workflow Generation_
 
-
+![Workflow](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/main/Pictures/modeltraining_workflow.png)
+_Fig 1._ : Workflow 
 
 
 
