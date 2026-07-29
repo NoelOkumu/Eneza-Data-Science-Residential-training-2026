@@ -22,6 +22,13 @@
 - [ ] Mutation Frequency and filtering mutations
 - [ ] Data transformation (If fold resistance values are skewed)
 
+### Task Allocation:
+
+_Lucy_: Data retrieval from Stanford HIV Database (HIVDB) and transformation to long format using R, Data Cleaning
+
+_Irene_: Retrieval of PhenoSense Clinical assay cutoff values and Data cleaning
+
+_Getnet_: Matrix generation workflow development
 
 
 Step 1: Removing Duplicates
@@ -53,13 +60,6 @@ Step 4 : Retrieval of PhenoSense Clinical assay cutoff values
 
 These values provide a threshold for determining whether the isolate was susceptible or Resistant to the drug. Values above cutoff are considered resistant while those below are deemed susceptible
 
-### Task Allocation:
-
-_Lucy_: Data retrieval from Stanford HIV Database (HIVDB) and transformation to long format using R, Data Cleaning
-
-_Irene_: Retrieval of PhenoSense Clinical assay cutoff values and Data cleaning
-
-_Getnet_: Matrix generation workflow development
 
 _Noella_: Quantifying and Handling missing values and Data cleaning
 
