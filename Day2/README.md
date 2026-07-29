@@ -30,6 +30,8 @@ _Irene_: Retrieval of PhenoSense Clinical assay cutoff values and Data cleaning
 
 _Getnet_: Matrix generation workflow development
 
+_Noella_: Quantifying and Handling missing values and Data cleaning
+
 ### Execution:
 
 _Step 1: Removing Duplicates_
@@ -62,7 +64,7 @@ _Step 4 : Retrieval of PhenoSense Clinical assay cutoff values_
 These values provide a threshold for determining whether the isolate was susceptible or Resistant to the drug. Values above cutoff are considered resistant while those below are deemed susceptible
 
 
-_Noella_: Quantifying and Handling missing values and Data cleaning
+
 
 
 
