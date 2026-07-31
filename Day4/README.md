@@ -13,17 +13,17 @@ Data availability : [Cleaned Data](https://github.com/NoelOkumu/HIV-drug-resista
 - [x] 3TC Training 
 
 
-#### Step 1: Feature Selection (Filtering Mutations)
+#### _Step 1: Feature Selection (Filtering Mutations)_
 
 - Creating a list of mutations that meet a threshold based on the mutation frequency calculated prior (Threshold >= 1.0)
   
 - Pruned low frequency mutations from the dataset
 
-#### Step 2: Parsing 'AZT' fold change values (Data cleaning)
+#### _Step 2: Parsing 'AZT' fold change values (Data cleaning)_
 
 AZT fold change values were obtained of type 'str' = Object. Binarization required type <float>.
 
-#### Step 3: Sub setting data for the six targets   
+#### _Step 3: Sub setting data for the six targets_   
 
 Data was grouped by drugs while filtering isolates that lacked Fold Change and binarizing the fold change values based on the [Phenosense scale](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/d7496c5e01d710afb7ef0273d261401db4598f3d/Day2/Cutoffs_NRTIs.pdf) obtained from Literature, we binarized targets in all subset data into new columns 'Resistance' 
 
@@ -49,7 +49,7 @@ Structure of each data frame:
 | Stavudine (D4T) | [df_D4T](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/d7496c5e01d710afb7ef0273d261401db4598f3d/Day4/drug_dfs/df_D4T.csv) | 2377 |
 | Didanosine (DDI) | [df_DDI](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/d7496c5e01d710afb7ef0273d261401db4598f3d/Day4/drug_dfs/df_DDI.csv) | 2377 |
 
-#### Step 4: 3TC Training Prep
+#### _Step 4: 3TC Training Prep_
 
 1. Create DataFrame for X(Features) and y(target)
 
