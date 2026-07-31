@@ -58,16 +58,44 @@ Structure of each data frame:
 X_train, X_test, y_train, y_test = train_test_split (X , y, test_size = 0.2, random_state = 42)
 ```
 
-   | Set | X | y |
-   | Train | 1887 | 1887 |
-   | Test | 472 | 472 |
+   | Set | X | y1 | y0| y_total |
+   |-----|----|----|----| ----- |
+   | Train | 1887 | 1192 | 695 | 1887 |
+   | Test | 472 | 288 | 154 | 472 |
 
 5. Inspecting dimensionality of Train and Test set (test_size = 0.2, Random State = 42, stratify = df_3TC["Resistance"])
 
 ```
 X_train, X_test, y_train, y_test = train_test_split (X, y, test_size = 0.2, random_state = 42, stratify = df_3TC["Resistance"])
 ```
-   | Set | X | y1 | y0 |
-   |------|----|---|----|
-   | Train | 1187 | 1184 | 703 |
-   | Test | 472 | 296 | 176|
+   | Set | X | y1 | y0 | y_total |
+   |------|----|---|----| ----- |
+   | Train | 1187 | 1184 | 703 | 1887 |
+   | Test | 472 | 296 | 176| 472 |
+
+6. Generating 3TC_Mutation Matrix
+   
+ _Note: y_test and y_train do not need transformation because they are already labellised_
+
+ ```
+### Generate Mutation matrix (Feature Matrix) for X_train
+#Load required libraries
+from sklearn.preprocessing import MultiLabelBinarizer
+
+#Mutation matrix:
+## X_Train matrix 
+mlb_features = MultiLabelBinarizer(classes = relevant_mutations)
+X_train_array = mlb_features.fit_transform(X_train)
+X_train_array.shape
+
+mlb_features.classes_
+
+### Generate Mutation matrix (Feature Matrix) for X_test
+## X_Test matrix
+X_test_array = mlb_features.transform(X_test)
+X_test_array.shape
+
+
+## y_test and y_train do not need transformation
+```
+
