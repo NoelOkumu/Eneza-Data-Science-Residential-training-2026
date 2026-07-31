@@ -25,7 +25,7 @@ AZT fold change values were obtained of type 'str' = Object. Binarization requir
 
 #### Step 3: Sub setting data for the six targets   
 
-Data was subset based on drugs while filtering isolates that lacked Fold Change and binarizing the fold change values based on the [Phenosense scale](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/d7496c5e01d710afb7ef0273d261401db4598f3d/Day2/Cutoffs_NRTIs.pdf) obtained from Literature, we binarized targets in all subset data into new columns 'Resistance' 
+Data was grouped by drugs while filtering isolates that lacked Fold Change and binarizing the fold change values based on the [Phenosense scale](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/d7496c5e01d710afb7ef0273d261401db4598f3d/Day2/Cutoffs_NRTIs.pdf) obtained from Literature, we binarized targets in all subset data into new columns 'Resistance' 
 
 ```
 Resistant = 1
