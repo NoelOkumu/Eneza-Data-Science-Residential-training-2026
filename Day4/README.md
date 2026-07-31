@@ -5,8 +5,11 @@ Data availability : [Cleaned Data](https://github.com/NoelOkumu/HIV-drug-resista
 ## Tasks
 
 [x] Parsing 'AZT' fold change values
+
 [x] Feature Selection (Filtering Mutations)
+
 [x] Sub-setting data for the six drugs
+
 [x] 3TC Training 
 
 
