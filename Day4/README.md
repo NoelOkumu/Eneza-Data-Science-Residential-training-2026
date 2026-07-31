@@ -53,7 +53,7 @@ Structure of each data frame:
 
 1. Create DataFrame for X(Features) and y(target)
 2. Split data set into Train and Test set (test_size = 0.2, Random State = 42) # stratify parameter used separately but results converged
-3. Inspect dimensionality of Train and Test set (Without stratification based on df_3TC["Resistance"]:
+3. Inspect dimensionality of Train and Test set (Without stratification based on df_3TC["Resistance"]):
 ```
 X_train, X_test, y_train, y_test = train_test_split (X , y, test_size = 0.2, random_state = 42)
 ```
@@ -63,8 +63,8 @@ X_train, X_test, y_train, y_test = train_test_split (X , y, test_size = 0.2, ran
    | Train | 1887 | 1192 | 695 | 1887 |
    | Test | 472 | 288 | 154 | 472 |
 
-5. Inspecting dimensionality of Train and Test set (test_size = 0.2, Random State = 42, stratify = df_3TC["Resistance"])
-
+5. Inspecting dimensionality of Train and Test set (With stratification based on df_3TC["Resistance"])
+   
 ```
 X_train, X_test, y_train, y_test = train_test_split (X, y, test_size = 0.2, random_state = 42, stratify = df_3TC["Resistance"])
 ```
