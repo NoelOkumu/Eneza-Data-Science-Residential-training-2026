@@ -43,5 +43,5 @@ print(len(relevant_mutations))
 ```
 
 Outcome: 
-[Relevant Mutations List](
+[Relevant Mutations List](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/48da5c6b428a4f05c90dfffe4ebd09fa401065dd/Day3/relevant_mutations.txt)
 
