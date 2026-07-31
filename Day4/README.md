@@ -4,9 +4,9 @@ Data availability : [Cleaned Data](https://github.com/NoelOkumu/HIV-drug-resista
 
 ## Tasks
 
-- [x] Parsing 'AZT' fold change values
-
 - [x] Feature Selection (Filtering Mutations)
+
+- [x] Parsing "AZT" Fold change Values
 
 - [x] Sub-setting data for the six drugs
 
@@ -16,40 +16,59 @@ Data availability : [Cleaned Data](https://github.com/NoelOkumu/HIV-drug-resista
 #### Step 1: Feature Selection (Filtering Mutations)
 
 - Creating a list of mutations that meet a threshold based on the mutation frequency calculated prior (Threshold >= 1.0)
+  
 - Pruned low frequency mutations from the dataset
 
 #### Step 2: Parsing 'AZT' fold change values (Data cleaning)
 
 AZT fold change values were obtained of type 'str' = Object. Binarization required type <float>.
 
-#### Step 3: Subsetting data for the six targets   
+#### Step 3: Sub setting data for the six targets   
 
-Data was subset based on drugs. We obtained 6 data frames
+Data was subset based on drugs while filtering isolates that lacked Fold Change and binarizing the fold change values based on the [Phenosense scale](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/d7496c5e01d710afb7ef0273d261401db4598f3d/Day2/Cutoffs_NRTIs.pdf) obtained from Literature, we binarized targets in all subset data into new columns 'Resistance' 
+
+```
+Resistant = 1
+Susceptible = 0
+```
+
+We obtained 6 data frames :
 
 ```
 Targets --> 3TC, FTC, AZT, ABC, DDI, D4T, TDF
 ```
+
 Structure of each data frame:
-| Drug | Stanford HIVDB Link |
-|------|----------------------|
-| Lamivudine (3TC) |[df_3TC](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/d7496c5e01d710afb7ef0273d261401db4598f3d/Day4/drug_dfs/df_3TC.csv) |
-| Abacavir (ABC) | [df_ABC](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/d7496c5e01d710afb7ef0273d261401db4598f3d/Day4/drug_dfs/df_ABC.csv) |
-| Tenofovir (TDF) | [df_TDF](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/d7496c5e01d710afb7ef0273d261401db4598f3d/Day4/drug_dfs/df_TDF.csv) |
-| Zidovudine (AZT) | [df_AZT](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/d7496c5e01d710afb7ef0273d261401db4598f3d/Day4/drug_dfs/df_AZT.csv)|
-| Stavudine (D4T) | [df_D4T](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/d7496c5e01d710afb7ef0273d261401db4598f3d/Day4/drug_dfs/df_D4T.csv) |
-| Didanosine (DDI) | [df_DDI](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/d7496c5e01d710afb7ef0273d261401db4598f3d/Day4/drug_dfs/df_DDI.csv) |
 
-#### Step 3: Binarization of Drug Fold Change values (Target)
+| Drug | Stanford HIVDB Link | Isolates |
+|------|----------------------|---------- |
+| Lamivudine (3TC) |[df_3TC](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/d7496c5e01d710afb7ef0273d261401db4598f3d/Day4/drug_dfs/df_3TC.csv) | 2359 |
+| Abacavir (ABC) | [df_ABC](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/d7496c5e01d710afb7ef0273d261401db4598f3d/Day4/drug_dfs/df_ABC.csv) | 2231 |
+| Tenofovir (TDF) | [df_TDF](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/d7496c5e01d710afb7ef0273d261401db4598f3d/Day4/drug_dfs/df_TDF.csv) | 2012 |
+| Zidovudine (AZT) | [df_AZT](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/d7496c5e01d710afb7ef0273d261401db4598f3d/Day4/drug_dfs/df_AZT.csv)| 2381 |
+| Stavudine (D4T) | [df_D4T](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/d7496c5e01d710afb7ef0273d261401db4598f3d/Day4/drug_dfs/df_D4T.csv) | 2377 |
+| Didanosine (DDI) | [df_DDI](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/d7496c5e01d710afb7ef0273d261401db4598f3d/Day4/drug_dfs/df_DDI.csv) | 2377 |
 
-Using the [Phenosense scale](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/d7496c5e01d710afb7ef0273d261401db4598f3d/Day2/Cutoffs_NRTIs.pdf) obtained from Literature, we binarized targets in all subset data into new columns 'Resistance' 
+#### Step 4: 3TC Training Prep
 
-Dropped Isolates with missing mutations, Retained:
+1. Create DataFrame for X(Features) and y(target)
+2. Split data set into Train and Test set (test_size = 0.2, Random State = 42) # stratify parameter used separately but results converged
+3. Inspect dimensionality of Train and Test set (Without stratification based on df_3TC["Resistance"]:
+```
+X_train, X_test, y_train, y_test = train_test_split (X , y, test_size = 0.2, random_state = 42)
+```
 
-| Drug_df | Isolates | 
-|------|----------------------|
-| Lamivudine (3TC) | 2359 |
-| Abacavir (ABC) | 2231 |
-| Tenofovir (TDF) | 2012 |
-| Zidovudine (AZT) | 2381 |
-| Stavudine (D4T) | 2377 |
-| Didanosine (DDI) | 2377 |
+   | Set | X | y |
+   | Train | 1887 | 1887 |
+   | Test | 472 | 472 |
+
+5. Inspecting dimensionality of Train and Test set (test_size = 0.2, Random State = 42, stratify = df_3TC["Resistance"])
+
+```
+X_train, X_test, y_train, y_test = train_test_split (X, y, test_size = 0.2, random_state = 42, stratify = df_3TC["Resistance"])
+```
+   | Set | X | y |
+   |------|----| 1 | 0 |
+   |------|----|---|----|
+   | Train | 1187 | 1184 | 703 |
+   | Test | 472 | 296 | 176|
