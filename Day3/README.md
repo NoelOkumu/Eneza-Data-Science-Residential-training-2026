@@ -45,6 +45,22 @@ global_frequencies.head(30)
 retained_mutations = global_frequencies[global_frequencies["Global_Frequency_%"] >= 1.0]
 retained_mutations.head()
 retained_mutations.tail()
+
+## List of mutations that meet the threshold
+relevant_mutations = list(retained_mutations["Mutation_List"])
+relevant_mutations
+
+# # Length of relevant mutation list
+# print(len(relevant_mutations))
+from pathlib import Path
+
+output_file = Path.home() / "Desktop/Eneza/eneza_project/HIV-drug-resistance-prediction-from-viral-sequences/Day3/relevant_mutations.txt"
+
+
+#Create csv files for Relevant mutations
+with open (output_file, "w") as file:
+    file.write(",".join(relevant_mutations))
+
 ```
 
 Outcome: 
