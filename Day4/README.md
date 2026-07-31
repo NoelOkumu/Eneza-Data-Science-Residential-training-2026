@@ -67,8 +67,7 @@ X_train, X_test, y_train, y_test = train_test_split (X , y, test_size = 0.2, ran
 ```
 X_train, X_test, y_train, y_test = train_test_split (X, y, test_size = 0.2, random_state = 42, stratify = df_3TC["Resistance"])
 ```
-   | Set | X | y |
-   |------|----| 1 | 0 |
+   | Set | X | y1 | y0 |
    |------|----|---|----|
    | Train | 1187 | 1184 | 703 |
    | Test | 472 | 296 | 176|
