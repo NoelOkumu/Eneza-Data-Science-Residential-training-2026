@@ -75,7 +75,7 @@ X_train, X_test, y_train, y_test = train_test_split (X, y, test_size = 0.2, rand
 
 6. Generating 3TC_Mutation Matrix
    
- _Note: y_test and y_train do not need transformation because they are already labellised_
+ _*Note*: y_test and y_train do not need transformation because they are already binarised
 
  ```
 ### Generate Mutation matrix (Feature Matrix) for X_train
@@ -95,7 +95,5 @@ mlb_features.classes_
 X_test_array = mlb_features.transform(X_test)
 X_test_array.shape
 
-
-## y_test and y_train do not need transformation
 ```
 
