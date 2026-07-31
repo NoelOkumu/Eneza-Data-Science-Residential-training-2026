@@ -3,8 +3,8 @@
 For effective model prediction, abstracting unnecessary features to focus only on Biologically important mutations is crucial. Today's task focused on ensuring that mutations selected as features are representative of commonly observed mutations known to cause drug resistance to the six drugs in the Nucleoside/ Nucleotide Reverse Transcriptase Inhibitor subclass.
 
 Task:
-[x] Creating Mutation list column from NRTIDRMs
-[x] Calculating Mutation Frequency 
+- [x] Creating Mutation list column from NRTIDRMs
+- [x] Calculating Mutation Frequency 
 
 # Step 1: Creating Mutation list column from NRTIDRMs
 Creating a list of Unique mutations from the NRTIDRMs and their respective counts 
@@ -30,18 +30,25 @@ print(total_isolates)
 mut_empty = (df_clean["Mutation_List"].str.len() == 0).sum()
 mut_empty
 
+```
+
+# Step 2 : Calculating Mutation Frequency
+
+Filtering Threshold : >= 1.0 % 
+
+```
 #Calculate proportionality of mutations
 global_frequencies['Global_Frequency_%'] = (global_frequencies['Absolute_Count'] / (total_isolates - mut_empty))* 100
 global_frequencies.head(30)
 
-## List of mutations that meet the threshold
-relevant_mutations = list(retained_mutations["Mutation_List"])
-relevant_mutations
-
-# Length of relevant mutation list
-print(len(relevant_mutations))
+# Filter based on mutation frequency (< 0.4)
+retained_mutations = global_frequencies[global_frequencies["Global_Frequency_%"] >= 1.0]
+retained_mutations.head()
+retained_mutations.tail()
 ```
 
 Outcome: 
 [Relevant Mutations List](https://github.com/NoelOkumu/HIV-drug-resistance-prediction-from-viral-sequences/blob/48da5c6b428a4f05c90dfffe4ebd09fa401065dd/Day3/relevant_mutations.txt)
+
+
 
