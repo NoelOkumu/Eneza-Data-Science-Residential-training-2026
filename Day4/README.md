@@ -52,8 +52,22 @@ Structure of each data frame:
 #### Step 4: 3TC Training Prep
 
 1. Create DataFrame for X(Features) and y(target)
-2. Split data set into Train and Test set (test_size = 0.2, Random State = 42) # stratify parameter used separately but results converged
-3. Inspect dimensionality of Train and Test set (Without stratification based on df_3TC["Resistance"]):
+
+```
+### Create X data frame
+X = df_3TC[["IsolateID","MutationListFiltered"]]
+X.head(n = 5)
+
+### Create y data frame
+y = df_3TC["resistance"]
+y.head(n = 10)
+
+### Assess whether stratification is needed based on target y == df_3TC["resistance"]
+y.value_counts()
+```
+
+3. Split data set into Train and Test set (test_size = 0.2, Random State = 42) # stratify parameter used separately but results converged
+4. Inspect dimensionality of Train and Test set (Without stratification based on df_3TC["Resistance"]):
 ```
 X_train, X_test, y_train, y_test = train_test_split (X , y, test_size = 0.2, random_state = 42)
 ```
