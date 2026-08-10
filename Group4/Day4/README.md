@@ -80,7 +80,7 @@ X_train, X_test, y_train, y_test = train_test_split (X , y, test_size = 0.2, ran
 5. Inspecting dimensionality of Train and Test set (With stratification based on df_3TC["Resistance"])
    
 ```
-X_train, X_test, y_train, y_test = train_test_split (X, y, test_size = 0.2, random_state = 42, stratify = df_3TC["Resistance"])
+X_3TC_train, X_3TC_test, y_3TC_train, y_3TC_test = train_test_split (X, y, test_size = 0.2, random_state = 42, stratify = df_3TC["Resistance"])
 ```
    | Set | X | y1 | y0 | y_total |
    |------|----|---|----| ----- |
