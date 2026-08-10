@@ -69,7 +69,7 @@ y.value_counts()
 3. Split data set into Train and Test set (test_size = 0.2, Random State = 42) # stratify parameter used separately but results converged
 4. Inspect dimensionality of Train and Test set (Without stratification based on df_3TC["Resistance"]):
 ```
-X_train, X_test, y_train, y_test = train_test_split (X , y, test_size = 0.2, random_state = 42)
+X_3TC_train, X_3TC_test, y_3TC_train, y_3TC_test = train_test_split (X , y, test_size = 0.2, random_state = 42)
 ```
 
    | Set | X | y1 | y0| y_total |
@@ -89,7 +89,7 @@ X_3TC_train, X_3TC_test, y_3TC_train, y_3TC_test = train_test_split (X, y, test_
 
 6. Generating 3TC_Mutation Matrix
    
- _*Note*: y_test and y_train do not need transformation because they are already binarised
+ _*Note*: y_3TC_test and y_3TC_train do not need transformation because they are already binarised
 
  ```
 ### Generate Mutation matrix (Feature Matrix) for X_train
@@ -99,15 +99,28 @@ from sklearn.preprocessing import MultiLabelBinarizer
 #Mutation matrix:
 ## X_Train matrix 
 mlb_features = MultiLabelBinarizer(classes = relevant_mutations)
-X_train_array = mlb_features.fit_transform(X_train)
-X_train_array.shape
+X_3TC_train_array = mlb_features.fit_transform(X_3TC_train)
+X_3TC_train_array.shape
 
 mlb_features.classes_
 
 ### Generate Mutation matrix (Feature Matrix) for X_test
 ## X_Test matrix
-X_test_array = mlb_features.transform(X_test)
-X_test_array.shape
+X_3TC_test_array = mlb_features.transform(X_3TC_test)
+X_3TC_test_array.shape
 
+### Generate Target Matrix for y_train
+y_3TC_train_array = y_3TC_train.values
+y_3TC_train_array.shape
+
+###  Generate Target Matrix for y_test
+y_3TC_test_array = y_3TC_test.values
+y_3TC_test_array.shape
 ```
+
+7. Saving Feature names as text
+   ```
+   import joblib
+#joblib.dump(list(mlb_features.classes_), "/home/noel/Desktop/Eneza/eneza_project/HIV-drug-resistance-prediction-from-viral-sequences/DawaFit/models/feature_names.pkl")
+
 
