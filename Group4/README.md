@@ -9,20 +9,25 @@ To ensure enhanced reproducibility for different user preferences, we made sure 
 
 _NB_: Find all the tools used in this project [here](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/tools)
 
+----
+
 ##### 2. Timeline
 
-- [x] [Day 1](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day1):
-- [ ] [Day 2](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day2):
-- [ ] [Day 3](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day3):
-- [ ] [Day 4](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day4):
-- [ ] [Day 5](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day5):
-- [ ] [Day 6]()
-- [ ] [Day 7]()
-- [ ] [Day 8]()
-- [ ] [Day 9]()
-- [ ] [Day 10]()
+- [x] [Day 1](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day1): Project familiarisation & dataset exploration
+- [ ] [Day 2](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day2): Data cleaning & preprocessing
+- [ ] [Day 3](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day3): Mutation data processing
+- [ ] [Day 4](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day4): Exploratory Data Analysis (EDA)
+- [ ] [Day 5](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day5): Feature selection & mutation association analysis
+- [ ] [Day 6]():Machine learning model development
+- [ ] [Day 7](): Model optimization & handling class imbalance
+- [ ] [Day 8](): Model evaluation
+- [ ] [Day 9](): Model interpretation & visualization
+- [ ] [Day 10](): Integration, interpretation & project documentation
 
-##### 3. Directory Structure
+----
+##### 3. 
+
+##### 4. Directory Structure
 
 For a seamless input-output redirection, our directory structure was created as follows:  
 
