@@ -18,7 +18,7 @@ _NB_: Find all the tools used in this project [here](https://github.com/NoelOkum
 - [x] [Day 3](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day3): Mutation data processing
 - [x] [Day 4](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day4): Exploratory Data Analysis (EDA)
 - [x] [Day 5](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day5): Feature selection & mutation association analysis
-- [x] [Day 6]():Machine learning model development
+- [x] [Day 6](): Machine learning model development
 - [x] [Day 7](): Model optimization & handling class imbalance
 - [x] [Day 8](): Model evaluation
 - [x] [Day 9](): Model interpretation & visualization
