@@ -6,6 +6,9 @@ Group Members:
 3. Irene Muiruri
 4. Noella Okumu
 
+Day 1 Target:
+
+Reviewe the HIV drug-resistance prediction problem, objectives, datasets and available drug/phenotype variables. Examine the structure of the Stanford HIV Drug Resistance Database and identified relevant mutation, drug resistance and fold-change variables.
 
 Task Allocation:
 
