@@ -1,6 +1,6 @@
 # Project Structure and Setup
 
-##### Package managers 
+##### 1. Package managers 
 
 To ensure enhanced reproducibility for different user preferences, we made sure to store version of tools in three files:
 
@@ -9,7 +9,7 @@ To ensure enhanced reproducibility for different user preferences, we made sure 
 
 _NB_: Find all the tools used in this project [here](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/tools)
 
-##### Timeline
+##### 2. Timeline
 
 - [x] [Day 1](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day1):
 - [ ] [Day 2](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day2):
@@ -22,7 +22,7 @@ _NB_: Find all the tools used in this project [here](https://github.com/NoelOkum
 - [ ] [Day 9]()
 - [ ] [Day 10]()
 
-##### Directory Structure
+##### 3. Directory Structure
 
 For a seamless input-output redirection, our directory structure was created as follows:  
 
