@@ -91,7 +91,7 @@ X_3TC_train, X_3TC_test, y_3TC_train, y_3TC_test = train_test_split (X, y, test_
    
  _*Note*: y_3TC_test and y_3TC_train do not need transformation because they are already binarised
 
- ```
+```
 ### Generate Mutation matrix (Feature Matrix) for X_train
 #Load required libraries
 from sklearn.preprocessing import MultiLabelBinarizer
@@ -119,7 +119,7 @@ y_3TC_test_array.shape
 ```
 
 7. Saving Feature names as text
-   ```
+   
    import joblib
 #joblib.dump(list(mlb_features.classes_), "/home/noel/Desktop/Eneza/eneza_project/HIV-drug-resistance-prediction-from-viral-sequences/DawaFit/models/feature_names.pkl")
 
