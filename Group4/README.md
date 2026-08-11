@@ -1,7 +1,13 @@
-## Project Structure
+# Project Structure and Setup
 
 ### Project Package managers 
-Find all the tools used in this project [here](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/tools)
+
+To ensure enhanced reproducibility for different user preferences, we made sure to store version of tools in three files:
+
+- [environment.yml](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/blob/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/tools/environment.yml) file for conda users
+- [Requirements.txt](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/blob/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/tools/requirements.txt) file for venv users
+
+_NB_: Find all the tools used in this project [here](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/tools)
 
 For a seamless input-output structure, our directory structure was created as follows:  
 
