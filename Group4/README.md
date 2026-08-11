@@ -14,15 +14,15 @@ _NB_: Find all the tools used in this project [here](https://github.com/NoelOkum
 ##### 2. Timeline
 
 - [x] [Day 1](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day1): Project familiarisation & dataset exploration
-- [ ] [Day 2](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day2): Data cleaning & preprocessing
-- [ ] [Day 3](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day3): Mutation data processing
-- [ ] [Day 4](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day4): Exploratory Data Analysis (EDA)
-- [ ] [Day 5](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day5): Feature selection & mutation association analysis
-- [ ] [Day 6]():Machine learning model development
-- [ ] [Day 7](): Model optimization & handling class imbalance
-- [ ] [Day 8](): Model evaluation
-- [ ] [Day 9](): Model interpretation & visualization
-- [ ] [Day 10](): Integration, interpretation & project documentation
+- [x] [Day 2](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day2): Data cleaning & preprocessing
+- [x] [Day 3](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day3): Mutation data processing
+- [x] [Day 4](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day4): Exploratory Data Analysis (EDA)
+- [x] [Day 5](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day5): Feature selection & mutation association analysis
+- [x] [Day 6]():Machine learning model development
+- [x] [Day 7](): Model optimization & handling class imbalance
+- [x] [Day 8](): Model evaluation
+- [x] [Day 9](): Model interpretation & visualization
+- [x] [Day 10](): Integration, interpretation & project documentation
 
 ----
 ##### 3. 
