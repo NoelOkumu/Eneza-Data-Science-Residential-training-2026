@@ -1,6 +1,6 @@
 # Project Structure and Setup
 
-### Project Package managers 
+##### Package managers 
 
 To ensure enhanced reproducibility for different user preferences, we made sure to store version of tools in three files:
 
@@ -9,7 +9,22 @@ To ensure enhanced reproducibility for different user preferences, we made sure 
 
 _NB_: Find all the tools used in this project [here](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/tools)
 
-For a seamless input-output structure, our directory structure was created as follows:  
+##### Timeline
+
+- [x] [Day 1](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day1):
+- [ ] [Day 2](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day2):
+- [ ] [Day 3](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day3):
+- [ ] [Day 4](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day4):
+- [ ] [Day 5](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day5):
+- [ ] [Day 6]()
+- [ ] [Day 7]()
+- [ ] [Day 8]()
+- [ ] [Day 9]()
+- [ ] [Day 10]()
+
+##### Directory Structure
+
+For a seamless input-output redirection, our directory structure was created as follows:  
 
 ```
 .
