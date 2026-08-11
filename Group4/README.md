@@ -25,8 +25,6 @@ _NB_: Find all the tools used in this project [here](https://github.com/NoelOkum
 - [x] [Day 10](): Integration, interpretation & project documentation
 
 ----
-##### 3. 
-
 ##### 4. Directory Structure
 
 For a seamless input-output redirection, our directory structure was created as follows:  
