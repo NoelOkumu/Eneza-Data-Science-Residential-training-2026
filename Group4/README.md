@@ -9,9 +9,13 @@ To ensure enhanced reproducibility for different user preferences, we made sure 
 
 _NB_: Find all the tools used in this project [here](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/tools)
 
-----
+##### 2. Pipeline
 
-##### 2. Timeline
+![Workflow](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/blob/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Pictures/modeltraining_workflow.png)
+
+_Fig 1._ : Workflow 
+
+##### 3. Timeline
 
 - [x] [Day 1](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day1): Project familiarisation & dataset exploration
 - [x] [Day 2](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day2): Data cleaning & preprocessing
