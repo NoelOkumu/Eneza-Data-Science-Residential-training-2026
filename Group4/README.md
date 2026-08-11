@@ -1,7 +1,7 @@
 ## Project Structure
 
 ### Project Package managers 
-Find all the tools used in this project [here](
+Find all the tools used in this project [here](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/tools)
 
 For a seamless input-output structure, our directory structure was created as follows:  
 
