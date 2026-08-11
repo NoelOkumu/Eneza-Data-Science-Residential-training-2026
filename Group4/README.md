@@ -1,3 +1,7 @@
+### Project Structure 
+
+For a seamless input-output structure, our directory structure was structured as follows:  
+
 ```
 .
 ├── DawaFit
