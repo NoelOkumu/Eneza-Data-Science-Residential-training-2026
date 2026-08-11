@@ -1,6 +1,6 @@
 ### Project Structure 
 
-For a seamless input-output structure, our directory structure was structured as follows:  
+For a seamless input-output structure, our directory structure was created as follows:  
 
 ```
 .
