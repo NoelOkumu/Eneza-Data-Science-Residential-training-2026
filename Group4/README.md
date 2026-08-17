@@ -24,9 +24,9 @@ _Fig 1._ : Workflow
 - [x] [Day 5](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/eee5261b64065db7ac5bdcfe523bda9101e9570e/Group4/Day5): Feature selection & mutation association analysis
 - [x] [Day 6](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/241848644035179e8f003250e7acd1998f1b166c/Group4/Day6): Machine learning model development
 - [x] [Day 7](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/241848644035179e8f003250e7acd1998f1b166c/Group4/Day7): Model optimization & handling class imbalance
-- [x] [Day 8](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/241848644035179e8f003250e7acd1998f1b166c/Group4/Day8): Model evaluation
-- [x] [Day 9](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/241848644035179e8f003250e7acd1998f1b166c/Group4/Day9): Model interpretation & visualization
-- [x] [Day 10](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/241848644035179e8f003250e7acd1998f1b166c/Group4/Day10): Integration, interpretation & project documentation
+- [x] [Day 8](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/241848644035179e8f003250e7acd1998f1b166c/Group4/Day8): Model evaluation, interpretation & visualization
+- [x] [Day 9](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/241848644035179e8f003250e7acd1998f1b166c/Group4/Day9): Integration, Intepretation and project documentation
+- [x] [Day 10](https://github.com/NoelOkumu/Eneza-Data-Science-Residential-training-2026/tree/241848644035179e8f003250e7acd1998f1b166c/Group4/Day10): Presentation
 
 ----
 ##### 4. Directory Structure
